@@ -3,7 +3,7 @@
 //  MyLostChildUITests
 //
 //  Created by Reem Mohamed on 3/7/18.
-//  Copyright © 2018 Reem Mohamed. All rights reserved.
+//  Copyright © 2018 Moeen Ahmad. All rights reserved.
 //
 
 import XCTest

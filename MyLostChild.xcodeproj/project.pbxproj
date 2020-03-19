@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18247CB820945D68000B9303 /* RegisterRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CB720945D68000B9303 /* RegisterRoot.swift */; };
+		18247CBA20945D7E000B9303 /* RegisterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CB920945D7E000B9303 /* RegisterData.swift */; };
+		18247CBD20945D9F000B9303 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CBC20945D9F000B9303 /* Network.swift */; };
+		18247CBF20945DC3000B9303 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CBE20945DC3000B9303 /* NetworkHandler.swift */; };
+		18247CC120945E29000B9303 /* UserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CC020945E29000B9303 /* UserHandler.swift */; };
+		18247CC320945FFF000B9303 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CC220945FFF000B9303 /* Constants.swift */; };
+		18247CC6209463D8000B9303 /* LoginRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CC5209463D8000B9303 /* LoginRoot.swift */; };
+		18247CC8209463E8000B9303 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CC7209463E8000B9303 /* LoginData.swift */; };
+		18247CCB20947185000B9303 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CCA20947185000B9303 /* ForgotPassword.swift */; };
+		18247CCE2094768C000B9303 /* AllListRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CCD2094768C000B9303 /* AllListRoot.swift */; };
+		18247CD02094769C000B9303 /* AllListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18247CCF2094769C000B9303 /* AllListData.swift */; };
 		1AA1DB4A204FF94A00AD5CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1DB49204FF94A00AD5CC2 /* AppDelegate.swift */; };
-		1AA1DB4C204FF94A00AD5CC2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1DB4B204FF94A00AD5CC2 /* FirstViewController.swift */; };
-		1AA1DB4E204FF94A00AD5CC2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1DB4D204FF94A00AD5CC2 /* SecondViewController.swift */; };
 		1AA1DB51204FF94A00AD5CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA1DB4F204FF94A00AD5CC2 /* Main.storyboard */; };
 		1AA1DB53204FF94A00AD5CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA1DB52204FF94A00AD5CC2 /* Assets.xcassets */; };
 		1AA1DB56204FF94A00AD5CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA1DB54204FF94A00AD5CC2 /* LaunchScreen.storyboard */; };
 		1AA1DB61204FF94A00AD5CC2 /* MyLostChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1DB60204FF94A00AD5CC2 /* MyLostChildTests.swift */; };
 		1AA1DB6C204FF94A00AD5CC2 /* MyLostChildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1DB6B204FF94A00AD5CC2 /* MyLostChildUITests.swift */; };
+		4F176B871DACF893EAE6370F /* Pods_MyLostChildTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAD6850FBB6105F059D86D3 /* Pods_MyLostChildTests.framework */; };
+		88847E2047C03863137C6217 /* Pods_MyLostChild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E612F256CA24135C0C47959F /* Pods_MyLostChild.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		D012CBB9209269B3007431E8 /* MissingChildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CBB7209269B3007431E8 /* MissingChildCell.swift */; };
+		D012CBBA209269B3007431E8 /* MissingChildCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D012CBB8209269B3007431E8 /* MissingChildCell.xib */; };
+		D012CBBD209330B4007431E8 /* adminlistcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012CBBB209330B4007431E8 /* adminlistcell.swift */; };
+		D012CBBE209330B4007431E8 /* adminlistcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D012CBBC209330B4007431E8 /* adminlistcell.xib */; };
+		DE120585F0894339E6874996 /* Pods_MyLostChildUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5682BA9DD9F904B0BA4EC222 /* Pods_MyLostChildUITests.framework */; };
+		F7995F1E208F8761007D1E24 /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F19208F8760007D1E24 /* report.png */; };
+		F7995F1F208F8761007D1E24 /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F1A208F8760007D1E24 /* update.png */; };
+		F7995F20208F8761007D1E24 /* missing.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F1B208F8760007D1E24 /* missing.png */; };
+		F7995F21208F8761007D1E24 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F1C208F8760007D1E24 /* info.png */; };
+		F7995F22208F8761007D1E24 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F1D208F8760007D1E24 /* list.png */; };
+		F7995F2420904CAD007D1E24 /* update1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F2320904CAD007D1E24 /* update1.png */; };
+		F7995F2620905FD6007D1E24 /* lucas16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7995F2520905FD5007D1E24 /* lucas16.jpg */; };
+		F7995F28209088F1007D1E24 /* AdminListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F27209088F1007D1E24 /* AdminListing.swift */; };
+		F7995F2A20908908007D1E24 /* AdminAddNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F2920908908007D1E24 /* AdminAddNewPost.swift */; };
+		F7995F2C20908B65007D1E24 /* 24dc8965-1dd9-41cd-ac57-6ba3b5a98c72.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7995F2B20908B64007D1E24 /* 24dc8965-1dd9-41cd-ac57-6ba3b5a98c72.jpeg */; };
+		F7995F2E20909CE8007D1E24 /* UserListingMissingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F2D20909CE8007D1E24 /* UserListingMissingChild.swift */; };
+		F7995F3020909D34007D1E24 /* FindChildInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F2F20909D34007D1E24 /* FindChildInfo.swift */; };
+		F7995F3220909D4D007D1E24 /* ReportPolice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F3120909D4D007D1E24 /* ReportPolice.swift */; };
+		F7995F352090A0B8007D1E24 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F342090A0B8007D1E24 /* Info.swift */; };
+		F7995F372090C765007D1E24 /* RegisterLostChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7995F362090C765007D1E24 /* RegisterLostChild.swift */; };
+		F7995F3920920994007D1E24 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = F7995F3820920994007D1E24 /* more.png */; };
+		F7D5B05B208F557600EED3CA /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B054208F557500EED3CA /* IQDropDownTextField.m */; };
+		F7D5B05C208F557600EED3CA /* KKPinCodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B057208F557500EED3CA /* KKPinCodeTextField.m */; };
+		F7D5B05D208F557600EED3CA /* AwesomeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B05A208F557500EED3CA /* AwesomeTextField.m */; };
+		F7D5B068208F57A700EED3CA /* Dubai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D5B064208F57A500EED3CA /* Dubai-Bold.ttf */; };
+		F7D5B069208F57A700EED3CA /* Dubai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D5B065208F57A500EED3CA /* Dubai-Light.ttf */; };
+		F7D5B06A208F57A700EED3CA /* Dubai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D5B066208F57A500EED3CA /* Dubai-Medium.ttf */; };
+		F7D5B06B208F57A700EED3CA /* Dubai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D5B067208F57A500EED3CA /* Dubai-Regular.ttf */; };
+		F7D5B06D208F5E0400EED3CA /* LostChildLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B06C208F5E0400EED3CA /* LostChildLogin.swift */; };
+		F7D5B06F208F5E2B00EED3CA /* LostChildRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B06E208F5E2B00EED3CA /* LostChildRegister.swift */; };
+		F7D5B071208F5E4700EED3CA /* LostChildForget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B070208F5E4700EED3CA /* LostChildForget.swift */; };
+		F7D5B073208F64CE00EED3CA /* Back-Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D5B072208F64CE00EED3CA /* Back-Arrow.png */; };
+		F7EE9D6A2097697C000328BA /* logo_adp_new.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EE9D6920976979000328BA /* logo_adp_new.png */; };
+		F7EE9D6C209769B2000328BA /* lostchild.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7EE9D6B209769B2000328BA /* lostchild.jpeg */; };
+		F7EE9D7020976AE1000328BA /* AD_Police_Emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EE9D6F20976AE1000328BA /* AD_Police_Emblem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +81,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18247CB720945D68000B9303 /* RegisterRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRoot.swift; sourceTree = "<group>"; };
+		18247CB920945D7E000B9303 /* RegisterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterData.swift; sourceTree = "<group>"; };
+		18247CBC20945D9F000B9303 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		18247CBE20945DC3000B9303 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		18247CC020945E29000B9303 /* UserHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHandler.swift; sourceTree = "<group>"; };
+		18247CC220945FFF000B9303 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18247CC5209463D8000B9303 /* LoginRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRoot.swift; sourceTree = "<group>"; };
+		18247CC7209463E8000B9303 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		18247CCA20947185000B9303 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		18247CCD2094768C000B9303 /* AllListRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListRoot.swift; sourceTree = "<group>"; };
+		18247CCF2094769C000B9303 /* AllListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListData.swift; sourceTree = "<group>"; };
 		1AA1DB46204FF94A00AD5CC2 /* MyLostChild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLostChild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA1DB49204FF94A00AD5CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AA1DB4B204FF94A00AD5CC2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1AA1DB4D204FF94A00AD5CC2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1AA1DB50204FF94A00AD5CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AA1DB52204FF94A00AD5CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA1DB55204FF94A00AD5CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +104,52 @@
 		1AA1DB67204FF94A00AD5CC2 /* MyLostChildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLostChildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA1DB6B204FF94A00AD5CC2 /* MyLostChildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLostChildUITests.swift; sourceTree = "<group>"; };
 		1AA1DB6D204FF94A00AD5CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5682BA9DD9F904B0BA4EC222 /* Pods_MyLostChildUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLostChildUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0989E1F96835D430337FC /* Pods-MyLostChildUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLostChildUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLostChildUITests/Pods-MyLostChildUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DAD6850FBB6105F059D86D3 /* Pods_MyLostChildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLostChildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633E5FD7AB9CE6D0C84ADD86 /* Pods-MyLostChildUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLostChildUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLostChildUITests/Pods-MyLostChildUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A3CD3DDA94CBB454F3FA532 /* Pods-MyLostChildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLostChildTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLostChildTests/Pods-MyLostChildTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C67CC07612F90C051385C256 /* Pods-MyLostChild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLostChild.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLostChild/Pods-MyLostChild.release.xcconfig"; sourceTree = "<group>"; };
+		D012CBB7209269B3007431E8 /* MissingChildCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingChildCell.swift; sourceTree = "<group>"; };
+		D012CBB8209269B3007431E8 /* MissingChildCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissingChildCell.xib; sourceTree = "<group>"; };
+		D012CBBB209330B4007431E8 /* adminlistcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminlistcell.swift; sourceTree = "<group>"; };
+		D012CBBC209330B4007431E8 /* adminlistcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = adminlistcell.xib; sourceTree = "<group>"; };
+		E612F256CA24135C0C47959F /* Pods_MyLostChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLostChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A0C117393EBBC97572F6CD /* Pods-MyLostChildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLostChildTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLostChildTests/Pods-MyLostChildTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7995F19208F8760007D1E24 /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
+		F7995F1A208F8760007D1E24 /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
+		F7995F1B208F8760007D1E24 /* missing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing.png; sourceTree = "<group>"; };
+		F7995F1C208F8760007D1E24 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		F7995F1D208F8760007D1E24 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		F7995F2320904CAD007D1E24 /* update1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update1.png; sourceTree = "<group>"; };
+		F7995F2520905FD5007D1E24 /* lucas16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucas16.jpg; sourceTree = "<group>"; };
+		F7995F27209088F1007D1E24 /* AdminListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminListing.swift; sourceTree = "<group>"; };
+		F7995F2920908908007D1E24 /* AdminAddNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAddNewPost.swift; sourceTree = "<group>"; };
+		F7995F2B20908B64007D1E24 /* 24dc8965-1dd9-41cd-ac57-6ba3b5a98c72.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "24dc8965-1dd9-41cd-ac57-6ba3b5a98c72.jpeg"; sourceTree = "<group>"; };
+		F7995F2D20909CE8007D1E24 /* UserListingMissingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListingMissingChild.swift; sourceTree = "<group>"; };
+		F7995F2F20909D34007D1E24 /* FindChildInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindChildInfo.swift; sourceTree = "<group>"; };
+		F7995F3120909D4D007D1E24 /* ReportPolice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportPolice.swift; sourceTree = "<group>"; };
+		F7995F342090A0B8007D1E24 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		F7995F362090C765007D1E24 /* RegisterLostChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLostChild.swift; sourceTree = "<group>"; };
+		F7995F3820920994007D1E24 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		F7D5B053208F557500EED3CA /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		F7D5B054208F557500EED3CA /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
+		F7D5B056208F557500EED3CA /* KKPinCodeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPinCodeTextField.h; sourceTree = "<group>"; };
+		F7D5B057208F557500EED3CA /* KKPinCodeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPinCodeTextField.m; sourceTree = "<group>"; };
+		F7D5B059208F557500EED3CA /* AwesomeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeTextField.h; sourceTree = "<group>"; };
+		F7D5B05A208F557500EED3CA /* AwesomeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeTextField.m; sourceTree = "<group>"; };
+		F7D5B064208F57A500EED3CA /* Dubai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai-Bold.ttf"; sourceTree = "<group>"; };
+		F7D5B065208F57A500EED3CA /* Dubai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai-Light.ttf"; sourceTree = "<group>"; };
+		F7D5B066208F57A500EED3CA /* Dubai-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai-Medium.ttf"; sourceTree = "<group>"; };
+		F7D5B067208F57A500EED3CA /* Dubai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai-Regular.ttf"; sourceTree = "<group>"; };
+		F7D5B06C208F5E0400EED3CA /* LostChildLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostChildLogin.swift; sourceTree = "<group>"; };
+		F7D5B06E208F5E2B00EED3CA /* LostChildRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostChildRegister.swift; sourceTree = "<group>"; };
+		F7D5B070208F5E4700EED3CA /* LostChildForget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostChildForget.swift; sourceTree = "<group>"; };
+		F7D5B072208F64CE00EED3CA /* Back-Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-Arrow.png"; sourceTree = "<group>"; };
+		F7EE9D6920976979000328BA /* logo_adp_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_adp_new.png; sourceTree = "<group>"; };
+		F7EE9D6B209769B2000328BA /* lostchild.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lostchild.jpeg; sourceTree = "<group>"; };
+		F7EE9D6F20976AE1000328BA /* AD_Police_Emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AD_Police_Emblem.png; sourceTree = "<group>"; };
+		FD6AF8C21E6106088F8B47DA /* Pods-MyLostChild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLostChild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLostChild/Pods-MyLostChild.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88847E2047C03863137C6217 /* Pods_MyLostChild.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F176B871DACF893EAE6370F /* Pods_MyLostChildTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +173,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE120585F0894339E6874996 /* Pods_MyLostChildUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18247CB320945D39000B9303 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18247CCC20947680000B9303 /* AllList */,
+				18247CC92094717A000B9303 /* ForgotPassword */,
+				18247CC4209463CA000B9303 /* LoginUser */,
+				18247CB420945D43000B9303 /* Register */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18247CB420945D43000B9303 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				18247CB720945D68000B9303 /* RegisterRoot.swift */,
+				18247CB920945D7E000B9303 /* RegisterData.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		18247CBB20945D91000B9303 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18247CBC20945D9F000B9303 /* Network.swift */,
+				18247CBE20945DC3000B9303 /* NetworkHandler.swift */,
+				18247CC020945E29000B9303 /* UserHandler.swift */,
+				18247CC220945FFF000B9303 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18247CC4209463CA000B9303 /* LoginUser */ = {
+			isa = PBXGroup;
+			children = (
+				18247CC5209463D8000B9303 /* LoginRoot.swift */,
+				18247CC7209463E8000B9303 /* LoginData.swift */,
+			);
+			path = LoginUser;
+			sourceTree = "<group>";
+		};
+		18247CC92094717A000B9303 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				18247CCA20947185000B9303 /* ForgotPassword.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		18247CCC20947680000B9303 /* AllList */ = {
+			isa = PBXGroup;
+			children = (
+				18247CCD2094768C000B9303 /* AllListRoot.swift */,
+				18247CCF2094769C000B9303 /* AllListData.swift */,
+			);
+			path = AllList;
+			sourceTree = "<group>";
+		};
 		1AA1DB3D204FF94A00AD5CC2 = {
 			isa = PBXGroup;
 			children = (
+				18247CBB20945D91000B9303 /* Helper */,
+				18247CB320945D39000B9303 /* Models */,
 				1AA1DB48204FF94A00AD5CC2 /* MyLostChild */,
 				1AA1DB5F204FF94A00AD5CC2 /* MyLostChildTests */,
 				1AA1DB6A204FF94A00AD5CC2 /* MyLostChildUITests */,
 				1AA1DB47204FF94A00AD5CC2 /* Products */,
+				F03E0CA1331348CEF7FFFB9E /* Pods */,
+				7592A0209E440F64073C0C7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +265,27 @@
 			isa = PBXGroup;
 			children = (
 				1AA1DB49204FF94A00AD5CC2 /* AppDelegate.swift */,
-				1AA1DB4B204FF94A00AD5CC2 /* FirstViewController.swift */,
-				1AA1DB4D204FF94A00AD5CC2 /* SecondViewController.swift */,
+				F7D5B06C208F5E0400EED3CA /* LostChildLogin.swift */,
+				F7995F362090C765007D1E24 /* RegisterLostChild.swift */,
+				F7D5B06E208F5E2B00EED3CA /* LostChildRegister.swift */,
+				F7D5B070208F5E4700EED3CA /* LostChildForget.swift */,
+				F7995F27209088F1007D1E24 /* AdminListing.swift */,
+				F7995F2920908908007D1E24 /* AdminAddNewPost.swift */,
+				F7995F2D20909CE8007D1E24 /* UserListingMissingChild.swift */,
+				F7995F2F20909D34007D1E24 /* FindChildInfo.swift */,
+				F7995F3120909D4D007D1E24 /* ReportPolice.swift */,
+				F7995F342090A0B8007D1E24 /* Info.swift */,
+				D012CBB7209269B3007431E8 /* MissingChildCell.swift */,
+				D012CBBB209330B4007431E8 /* adminlistcell.swift */,
+				D012CBBC209330B4007431E8 /* adminlistcell.xib */,
+				D012CBB8209269B3007431E8 /* MissingChildCell.xib */,
 				1AA1DB4F204FF94A00AD5CC2 /* Main.storyboard */,
 				1AA1DB52204FF94A00AD5CC2 /* Assets.xcassets */,
 				1AA1DB54204FF94A00AD5CC2 /* LaunchScreen.storyboard */,
 				1AA1DB57204FF94A00AD5CC2 /* Info.plist */,
+				F7995F3320909F80007D1E24 /* images */,
+				F7D5B062208F57A500EED3CA /* Font */,
+				F7D5B051208F557500EED3CA /* Librarysupport */,
 			);
 			path = MyLostChild;
 			sourceTree = "<group>";
@@ -128,6 +308,105 @@
 			path = MyLostChildUITests;
 			sourceTree = "<group>";
 		};
+		7592A0209E440F64073C0C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E612F256CA24135C0C47959F /* Pods_MyLostChild.framework */,
+				5DAD6850FBB6105F059D86D3 /* Pods_MyLostChildTests.framework */,
+				5682BA9DD9F904B0BA4EC222 /* Pods_MyLostChildUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F03E0CA1331348CEF7FFFB9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6AF8C21E6106088F8B47DA /* Pods-MyLostChild.debug.xcconfig */,
+				C67CC07612F90C051385C256 /* Pods-MyLostChild.release.xcconfig */,
+				6A3CD3DDA94CBB454F3FA532 /* Pods-MyLostChildTests.debug.xcconfig */,
+				E7A0C117393EBBC97572F6CD /* Pods-MyLostChildTests.release.xcconfig */,
+				5BC0989E1F96835D430337FC /* Pods-MyLostChildUITests.debug.xcconfig */,
+				633E5FD7AB9CE6D0C84ADD86 /* Pods-MyLostChildUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7995F3320909F80007D1E24 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F7995F3820920994007D1E24 /* more.png */,
+				F7EE9D6920976979000328BA /* logo_adp_new.png */,
+				F7995F1C208F8760007D1E24 /* info.png */,
+				F7995F1D208F8760007D1E24 /* list.png */,
+				F7EE9D6B209769B2000328BA /* lostchild.jpeg */,
+				F7EE9D6F20976AE1000328BA /* AD_Police_Emblem.png */,
+				F7995F2320904CAD007D1E24 /* update1.png */,
+				F7995F2B20908B64007D1E24 /* 24dc8965-1dd9-41cd-ac57-6ba3b5a98c72.jpeg */,
+				F7995F1B208F8760007D1E24 /* missing.png */,
+				F7995F2520905FD5007D1E24 /* lucas16.jpg */,
+				F7995F19208F8760007D1E24 /* report.png */,
+				F7995F1A208F8760007D1E24 /* update.png */,
+				F7D5B072208F64CE00EED3CA /* Back-Arrow.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F7D5B051208F557500EED3CA /* Librarysupport */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B052208F557500EED3CA /* pickerview */,
+				F7D5B055208F557500EED3CA /* PIN-Text */,
+				F7D5B058208F557500EED3CA /* TextField */,
+			);
+			path = Librarysupport;
+			sourceTree = "<group>";
+		};
+		F7D5B052208F557500EED3CA /* pickerview */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B053208F557500EED3CA /* IQDropDownTextField.h */,
+				F7D5B054208F557500EED3CA /* IQDropDownTextField.m */,
+			);
+			path = pickerview;
+			sourceTree = "<group>";
+		};
+		F7D5B055208F557500EED3CA /* PIN-Text */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B056208F557500EED3CA /* KKPinCodeTextField.h */,
+				F7D5B057208F557500EED3CA /* KKPinCodeTextField.m */,
+			);
+			path = "PIN-Text";
+			sourceTree = "<group>";
+		};
+		F7D5B058208F557500EED3CA /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B059208F557500EED3CA /* AwesomeTextField.h */,
+				F7D5B05A208F557500EED3CA /* AwesomeTextField.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		F7D5B062208F57A500EED3CA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B063208F57A500EED3CA /* Dubai Font */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F7D5B063208F57A500EED3CA /* Dubai Font */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B064208F57A500EED3CA /* Dubai-Bold.ttf */,
+				F7D5B065208F57A500EED3CA /* Dubai-Light.ttf */,
+				F7D5B066208F57A500EED3CA /* Dubai-Medium.ttf */,
+				F7D5B067208F57A500EED3CA /* Dubai-Regular.ttf */,
+			);
+			path = "Dubai Font";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +414,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AA1DB70204FF94A00AD5CC2 /* Build configuration list for PBXNativeTarget "MyLostChild" */;
 			buildPhases = (
+				8E1A8EFCD82ABA149073DA26 /* [CP] Check Pods Manifest.lock */,
 				1AA1DB42204FF94A00AD5CC2 /* Sources */,
 				1AA1DB43204FF94A00AD5CC2 /* Frameworks */,
 				1AA1DB44204FF94A00AD5CC2 /* Resources */,
+				1B1FB4764B24CDF11A9A13FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +433,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AA1DB73204FF94A00AD5CC2 /* Build configuration list for PBXNativeTarget "MyLostChildTests" */;
 			buildPhases = (
+				D063B8356790F58EF6425CC9 /* [CP] Check Pods Manifest.lock */,
 				1AA1DB58204FF94A00AD5CC2 /* Sources */,
 				1AA1DB59204FF94A00AD5CC2 /* Frameworks */,
 				1AA1DB5A204FF94A00AD5CC2 /* Resources */,
@@ -170,6 +452,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AA1DB76204FF94A00AD5CC2 /* Build configuration list for PBXNativeTarget "MyLostChildUITests" */;
 			buildPhases = (
+				6974F71D5B16593597007A40 /* [CP] Check Pods Manifest.lock */,
 				1AA1DB63204FF94A00AD5CC2 /* Sources */,
 				1AA1DB64204FF94A00AD5CC2 /* Frameworks */,
 				1AA1DB65204FF94A00AD5CC2 /* Resources */,
@@ -196,6 +479,7 @@
 				TargetAttributes = {
 					1AA1DB45204FF94A00AD5CC2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M86XZ2F344;
 						ProvisioningStyle = Automatic;
 					};
 					1AA1DB5B204FF94A00AD5CC2 = {
@@ -236,8 +520,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA1DB56204FF94A00AD5CC2 /* LaunchScreen.storyboard in Resources */,
+				F7EE9D6C209769B2000328BA /* lostchild.jpeg in Resources */,
+				F7EE9D6A2097697C000328BA /* logo_adp_new.png in Resources */,
+				F7D5B068208F57A700EED3CA /* Dubai-Bold.ttf in Resources */,
+				F7995F1E208F8761007D1E24 /* report.png in Resources */,
+				F7D5B073208F64CE00EED3CA /* Back-Arrow.png in Resources */,
+				F7995F22208F8761007D1E24 /* list.png in Resources */,
+				D012CBBE209330B4007431E8 /* adminlistcell.xib in Resources */,
+				F7EE9D7020976AE1000328BA /* AD_Police_Emblem.png in Resources */,
+				D012CBBA209269B3007431E8 /* MissingChildCell.xib in Resources */,
+				F7995F1F208F8761007D1E24 /* update.png in Resources */,
 				1AA1DB53204FF94A00AD5CC2 /* Assets.xcassets in Resources */,
+				F7995F2620905FD6007D1E24 /* lucas16.jpg in Resources */,
+				F7D5B069208F57A700EED3CA /* Dubai-Light.ttf in Resources */,
+				F7995F2C20908B65007D1E24 /* 24dc8965-1dd9-41cd-ac57-6ba3b5a98c72.jpeg in Resources */,
+				F7995F3920920994007D1E24 /* more.png in Resources */,
+				F7995F2420904CAD007D1E24 /* update1.png in Resources */,
 				1AA1DB51204FF94A00AD5CC2 /* Main.storyboard in Resources */,
+				F7D5B06A208F57A700EED3CA /* Dubai-Medium.ttf in Resources */,
+				F7995F20208F8761007D1E24 /* missing.png in Resources */,
+				F7D5B06B208F57A700EED3CA /* Dubai-Regular.ttf in Resources */,
+				F7995F21208F8761007D1E24 /* info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +560,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B1FB4764B24CDF11A9A13FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyLostChild/Pods-MyLostChild-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyLostChild/Pods-MyLostChild-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6974F71D5B16593597007A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLostChildUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1A8EFCD82ABA149073DA26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLostChild-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D063B8356790F58EF6425CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLostChildTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AA1DB42204FF94A00AD5CC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA1DB4E204FF94A00AD5CC2 /* SecondViewController.swift in Sources */,
+				18247CB820945D68000B9303 /* RegisterRoot.swift in Sources */,
+				18247CC320945FFF000B9303 /* Constants.swift in Sources */,
+				F7995F28209088F1007D1E24 /* AdminListing.swift in Sources */,
+				18247CBA20945D7E000B9303 /* RegisterData.swift in Sources */,
+				18247CBF20945DC3000B9303 /* NetworkHandler.swift in Sources */,
+				18247CC8209463E8000B9303 /* LoginData.swift in Sources */,
+				F7995F372090C765007D1E24 /* RegisterLostChild.swift in Sources */,
+				18247CCE2094768C000B9303 /* AllListRoot.swift in Sources */,
+				F7D5B05B208F557600EED3CA /* IQDropDownTextField.m in Sources */,
+				D012CBBD209330B4007431E8 /* adminlistcell.swift in Sources */,
+				D012CBB9209269B3007431E8 /* MissingChildCell.swift in Sources */,
+				F7995F2A20908908007D1E24 /* AdminAddNewPost.swift in Sources */,
+				F7995F352090A0B8007D1E24 /* Info.swift in Sources */,
+				F7D5B071208F5E4700EED3CA /* LostChildForget.swift in Sources */,
+				F7D5B06D208F5E0400EED3CA /* LostChildLogin.swift in Sources */,
+				F7D5B05D208F557600EED3CA /* AwesomeTextField.m in Sources */,
+				18247CBD20945D9F000B9303 /* Network.swift in Sources */,
+				F7D5B06F208F5E2B00EED3CA /* LostChildRegister.swift in Sources */,
 				1AA1DB4A204FF94A00AD5CC2 /* AppDelegate.swift in Sources */,
-				1AA1DB4C204FF94A00AD5CC2 /* FirstViewController.swift in Sources */,
+				18247CC120945E29000B9303 /* UserHandler.swift in Sources */,
+				F7D5B05C208F557600EED3CA /* KKPinCodeTextField.m in Sources */,
+				18247CD02094769C000B9303 /* AllListData.swift in Sources */,
+				F7995F3220909D4D007D1E24 /* ReportPolice.swift in Sources */,
+				18247CC6209463D8000B9303 /* LoginRoot.swift in Sources */,
+				F7995F2E20909CE8007D1E24 /* UserListingMissingChild.swift in Sources */,
+				F7995F3020909D34007D1E24 /* FindChildInfo.swift in Sources */,
+				18247CCB20947185000B9303 /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +820,12 @@
 		};
 		1AA1DB71204FF94A00AD5CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6AF8C21E6106088F8B47DA /* Pods-MyLostChild.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M86XZ2F344;
 				INFOPLIST_FILE = MyLostChild/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sem7.Firebase.Series.MyLostChild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,9 +835,12 @@
 		};
 		1AA1DB72204FF94A00AD5CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67CC07612F90C051385C256 /* Pods-MyLostChild.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M86XZ2F344;
 				INFOPLIST_FILE = MyLostChild/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sem7.Firebase.Series.MyLostChild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +850,7 @@
 		};
 		1AA1DB74204FF94A00AD5CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3CD3DDA94CBB454F3FA532 /* Pods-MyLostChildTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +865,7 @@
 		};
 		1AA1DB75204FF94A00AD5CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A0C117393EBBC97572F6CD /* Pods-MyLostChildTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +880,7 @@
 		};
 		1AA1DB77204FF94A00AD5CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC0989E1F96835D430337FC /* Pods-MyLostChildUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MyLostChildUITests/Info.plist;
@@ -479,6 +894,7 @@
 		};
 		1AA1DB78204FF94A00AD5CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633E5FD7AB9CE6D0C84ADD86 /* Pods-MyLostChildUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MyLostChildUITests/Info.plist;
@@ -509,6 +925,7 @@
 				1AA1DB72204FF94A00AD5CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA1DB73204FF94A00AD5CC2 /* Build configuration list for PBXNativeTarget "MyLostChildTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +934,7 @@
 				1AA1DB75204FF94A00AD5CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA1DB76204FF94A00AD5CC2 /* Build configuration list for PBXNativeTarget "MyLostChildUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +943,7 @@
 				1AA1DB78204FF94A00AD5CC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

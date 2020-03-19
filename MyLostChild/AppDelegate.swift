@@ -3,7 +3,7 @@
 //  MyLostChild
 //
 //  Created by Reem Mohamed on 3/7/18.
-//  Copyright © 2018 Reem Mohamed. All rights reserved.
+//  Copyright © 2018 Moeen Ahmad. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 3)
+
+        if UserDefaults.standard.object(forKey: "LoggedIn") != nil{
+            
+            
+            let mainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let centerVC = mainStoryBoard.instantiateViewController(withIdentifier: "usertab") as! UITabBarController
+            window!.rootViewController = centerVC as? UITabBarController
+            window!.makeKeyAndVisible()
+            
+            
+            
+        } else if UserDefaults.standard.object(forKey: "AdminLoggedIn") != nil{
+            
+            let mainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let centerVC = mainStoryBoard.instantiateViewController(withIdentifier: "admintab") as! UITabBarController
+            window!.rootViewController = centerVC as? UITabBarController
+            window!.makeKeyAndVisible()
+            
+        }else{
+            
+            // not exist
+        }
+        
         return true
     }
 
